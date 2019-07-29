@@ -247,7 +247,7 @@ public struct FilePart
     let type: String
     let data: Data
 
-    init(filename: String, type: String, data: Data)
+    public init(filename: String, type: String, data: Data)
         {
         self.filename = filename
         self.type = type
